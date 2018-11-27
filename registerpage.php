@@ -11,7 +11,7 @@
 			<a href="index.php">Accueil</a>
 			<a href="forum.php">Forum</a>
 			<a href="loginpage.php">Se connecter</a>
-			<a  class="actif" href="registerpage.php">S'inscrire</a>
+			<a class="actif" href="registerpage.php">S'inscrire</a>
 		</nav>
 			<h1>Espace d'inscription</h1>
 				<p>Vous êtes ici pour enregistrer, veuillez remplir les champs suivants !</p>
@@ -22,6 +22,8 @@
            <form method="post" action="inscription.php">
                <label for="identifiant">Votre identifiant : </label>
                    <input type="text" name="identifiant" id="identifiant" placeholder="Ex : Siphano" required> <br>
+				<label for="email">Votre e-mail : </label>
+				   <input type="text" name="email" id="email" placeholder="Ex : monemail@gmail.com" required> <br>
 
                <label for="password">Mot de passe</label>
                    <input type="password" name="password" maxlength="10" placeholder="**********" required><br>

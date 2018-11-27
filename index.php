@@ -8,7 +8,7 @@
 	<body>
 	<header>
 		<nav>
-			<a  class="actif" href="index.php">Accueil</a>
+			<a class="actif" href="index.php">Accueil</a>
 			<a href="forum.php">Forum</a>
 			<a href="loginpage.php">Se connecter</a>
 			<a href="registerpage.php">S'inscrire</a>

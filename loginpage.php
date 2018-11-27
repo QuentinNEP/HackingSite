@@ -10,7 +10,7 @@
 		<nav>
 			<a href="index.php">Accueil</a>
 			<a href="forum.php">Forum</a>
-			<a  class="actif" href="loginpage.php">Se connecter</a>
+			<a class="actif" href="loginpage.php">Se connecter</a>
 			<a href="registerpage.php">S'inscrire</a>
 		</nav>
 			<h1>Espace de connection</h1>
