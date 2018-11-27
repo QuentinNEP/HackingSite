@@ -4,10 +4,39 @@ Bleu un peu moins clair : #0984e3
 Poupre pâle : #a29bfe
 Bleu pas tout à fait : #6c5ce7
 Gris mais pas trop : #2d3436
+#e84393
 */
 
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #2d3436; 
+	background-color: #2d3436;
+}
+nav {
+	text-align: center;
+	background-color: #74b9ff;
+}
+nav a {
+	display: inline-block;
+	font-family: font1;
+
+	text-decoration: none;
+	color: black;
+	font-size: 2em;
+	margin: 10px;
+
+}
+nav a:hover {
+	padding: 10px;
+	margin: 0px;
+	background-color: #2d3436;
+	color : #e84393;
+	border-bottom: 2px solid #e84393;
+}
+.actif {
+	padding: 10px;
+	margin: 0px;
+	background-color: #2d3436;
+	color : #e84393;
+	border-bottom: 2px solid #e84393;
 }

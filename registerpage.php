@@ -7,7 +7,12 @@
 	</head>
 	<body>
 	<header>
-		<?php include "assets/redir/navbar.php" ?>
+		<nav>
+			<a href="index.php">Accueil</a>
+			<a href="forum.php">Forum</a>
+			<a href="loginpage.php">Se connecter</a>
+			<a  class="actif" href="registerpage.php">S'inscrire</a>
+		</nav>
 			<h1>Espace d'inscription</h1>
 				<p>Vous êtes ici pour enregistrer, veuillez remplir les champs suivants !</p>
 	</header>

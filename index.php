@@ -7,7 +7,12 @@
 	</head>
 	<body>
 	<header>
-		<?php include "assets/redir/navbar.php" ?>	
+		<nav>
+			<a  class="actif" href="index.php">Accueil</a>
+			<a href="forum.php">Forum</a>
+			<a href="loginpage.php">Se connecter</a>
+			<a href="registerpage.php">S'inscrire</a>
+		</nav>
 		<h1>Bienvenue</h1>
 		<p>Bonjour et bienvnue sur le forum JV des 12/14 ans</p>
 	</header>
