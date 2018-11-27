@@ -7,7 +7,15 @@
 	</head>
 	<body>
 	<header>
-		<?php include "assets/redir/navbar.php" ?>
+		<?php include "assets/redir/navbar.php" ?>	
+		<h1>Bienvenue</h1>
+		<p>Bonjour et bienvnue sur le forum JV des 12/14 ans</p>
 	</header>
+	<main>
+		<p>WHALLA JE SUIS BO ET J'AI 10 ANS </p>
+	</main>
+	<footer>
+		<p>FIN DE LA PAGE</p>
+	</footer>
 	</body>
 </html>
