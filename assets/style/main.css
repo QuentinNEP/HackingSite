@@ -1,0 +1,13 @@
+/* Charte Grahpique :
+Bleu clair :#74b9ff
+Bleu un peu moins clair : #0984e3
+Poupre pâle : #a29bfe
+Bleu pas tout à fait : #6c5ce7
+Gris mais pas trop : #2d3436
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #2d3436; 
+}
