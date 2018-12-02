@@ -31,5 +31,8 @@
                    <input type="password" name="password" maxlength="10" placeholder="**********" required><br>
                        <button type="submit"> S'inscrire </button>
 	</main>
+	<footer>
+		<p>Copyright - Les winners</p>
+	</footer>
 	</body>
 </html>

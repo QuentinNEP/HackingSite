@@ -20,7 +20,7 @@
 		<p>WHALLA JE SUIS BO ET J'AI 10 ANS </p>
 	</main>
 	<footer>
-		<p>FIN DE LA PAGE</p>
+		<p>Copyright - Les winners</p>
 	</footer>
 	</body>
 </html>

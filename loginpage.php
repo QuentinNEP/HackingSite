@@ -28,7 +28,7 @@
                        <button type="submit"> Connection </button>
 	</main>
 	<footer>
-		<p>FIN DE LA PAGE</p>
+		<p>Copyright - Les winners</p>
 	</footer>
 	</body>
 </html>
