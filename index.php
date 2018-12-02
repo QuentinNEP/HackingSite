@@ -14,7 +14,7 @@
 			<a href="registerpage.php">S'inscrire</a>
 		</nav>
 		<h1>Bienvenue</h1>
-		<p>Bonjour et bienvnue sur le forum JV des 12/14 ans</p>
+		<p>Bonjour et bienvnue sur le site de JV des 18/25 ans</p>
 	</header>
 	<main>
 		<p>WHALLA JE SUIS BO ET J'AI 10 ANS </p>
