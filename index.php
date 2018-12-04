@@ -20,7 +20,7 @@
 		<p>WHALLA JE SUIS BO ET J'AI 10 ANS </p>
 	</main>
 	<footer>
-		<p>Copyright - Les winners</p>
+		<?php include "foot.php" ?>
 	</footer>
 	</body>
 </html>

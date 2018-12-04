@@ -19,10 +19,11 @@
             <a href="registerpage.php">S'inscrire</a>
         </nav>
 
-        <h1>Espace de discussion</h1>
-        <p>Vous êtes ici pour parlez de sujet en rapport avec les jeux vidéos, d'actualité ou non !</p>
     </header>
     <main>
+
+        <h1>Espace de discussion</h1>
+        <p>Vous êtes ici pour parlez de sujet en rapport avec les jeux vidéos, d'actualité ou non !</p>
         <article class="article1">
             <h2>03 SEPTEMBRE
                 <h3>Red Dead Redemption meilleur jeu de l'année ?</h3>
@@ -58,12 +59,10 @@
                         énorme ! En comparaison dans GTA V, seulement 20 heures de gameplay sont nécessaires.</li>
                 </ul>
 
-                <FORM>
-                    <TEXTAREA name="nom" rows=4 cols=40></TEXTAREA>
-                </FORM>
 
-                <!-- Mettre un genre de trait -->
 
+                <hr>
+					</article>
                 <article class="article2">
                     <h2>30 NOVEMBRE
                         <ul>
@@ -91,10 +90,13 @@
                                 attention si vous souhaitez acheter une console de jeu prochainement avec un titre qui
                                 devrait
                                 vous faire passer de bons moments.</p>
-                            <h2 class="h2psn">PS4 Slim Noire 1 To
+								</article>
+
+                            <h2>PS4 Slim Noire 1 To
                                 +
                                 Marvel's Spider-Man</h2>
-                            <!-- Mettre la photo -->
+														<div  class="psn">
+
                             <ul class="liste1">
                                 <li>PlayStation 4 Slim Noire 1 To</li>
                                 <li>1 Manette sans fil DUALSHOCK 4</li>
@@ -103,12 +105,13 @@
                                 <li>1 Câble USB</li>
                                 <li>1 Cordon d’alimentation</li>
                             </ul>
+														  <img src="assets/image/PS4sp.png" alt="">
+														</div>
+                          <hr>
 
-                            <!-- Mettre un genre de trait -->
-
-                            <h2 class="h2sbox">Xbox One S Blanche 1
+                            <h2 >Xbox One S Blanche 1
                                 To + Forza Horizon 4</h2>
-                            <!-- Mettre la photo -->
+														<div class="xbox">
                             <ul class="liste2">
                                 <li>Xbox One S Blanche 1 To</li>
                                 <li>1 Manette sans fil Xbox One</li>
@@ -117,15 +120,17 @@
                                 <li>2 Piles LR6</li>
                                 <li>1 Mois de Xbox Game Pass</li>
                             </ul>
+														<img src="assets/image/xboxforza.png" alt="">
+														</div>
                             <p>Simple mais efficace, ce pack qui contient une Xbox One S 1 To avec Forza Horizon 4, en
                                 plus d'un mois de Xbox Game Pass, est un bon moyen d'entrer dans l'univers de la
                                 console de Microsoft.</p>
 
-                            <!-- Mettre un genre de trait -->
+                            <hr>
 
-                            <h2 class="h2switch">Nintendo
+                            <h2>Nintendo
                                 Switch édition Smash Bros + Super Smash Bros. Ultimate</h2>
-                            <!-- Mettre la photo -->
+														<div class="switch">
                             <ul class="liste3">
                                 <li>Nintendo Switch édition Smash Bros</li>
                                 <li>Manettes Joy-Con</li>
@@ -135,6 +140,8 @@
                                 <li>1 Adaptateur secteur Nintendo Switch</li>
                                 <li>1 Paire de dragonnes Joy-Con</li>
                             </ul>
+														<img src="assets/image/switch.png" alt="">
+														</div>
                             <p>Voilà un bundle qui devrait cartonner pour les fêtes de fin d'année. Comprenant une
                                 Switch collector ainsi que le jeu Super Smash Bros. Ultimate, il ravira les passionnés
                                 de jeux de combat appréciant l'univers Nintendo.</p>
@@ -144,7 +151,7 @@
                 </article>
     </main>
     <footer>
-        <p>Copyright - Les winners</p>
+        <?php include "foot.php" ?>
     </footer>
 </body>
 

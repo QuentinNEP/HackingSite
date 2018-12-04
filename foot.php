@@ -1,3 +1,5 @@
 <footer>
-  <p>FIN DE LA PAGE</p>
+	<hr>
+  <p>Copyright &copy; Les Winners | All Right Reserved</p>
+	<hr>
 </footer>
