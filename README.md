@@ -1,13 +1,18 @@
 # HackingSite
 
-## Suivi du site
+## Carnet de bord
 
-### Lundi 3 Décembre 2018
+### Mardi 4 Décembre 2018
 
-* Le HTML est fini
-* Les formations JS et Php avancent petit à petit
-* La charte graphique est finie, le CSS en préparation
+* Le HTML est fini.
+* Formation PHP finie. Le développement de cette partie peut réellement commencer.
+* La charte graphique est finie, le CSS en préparation.
 * Les fonctionnements d'inscription et de connexion sont finis, il ne reste qu'à les implémenter sur le site.
+* Les pages membres sont en préparation.
+* Enzo SPITERI a été ajouté à l'équipe de développement.
+* La formation au JS et sur le point de se finir.
+* La gestion des cookies est presque fonctionnelle.
+* Les bases de données sont crées et partagées sur le GitHub.
 
 ## Deadlines
 
