@@ -1,10 +1,11 @@
 <?php
 session_start();
 
-$bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', '');
+$bdd = mysqli_connect('localhost', 'root', '', 'forum_vulnerable');
 
-$list_nom = $bdd->query('SELECT user FROM membres');
-$list_nom->fetch()['user'];
+/*$list_nom = $bdd->query('SELECT user FROM membres');*/
+$list_nom = mysqli_query($bdd, 'SELECT * FROM membres');
+/*$list_nom->fetch()['user'];*/
 
 $new_name = false;
 
@@ -22,22 +23,24 @@ if (isset($_GET['submit']))
 				$pwd = sha1($_GET['pwd']);
 
 				$longueurPseudo = strlen($user);
-				if ($longueurPseudo <= 12)
+				if ($longueurPseudo <= 20)
 				{
 					if ($longueurPseudo >= 3)
 					{
 						if ($longueurPwd >= 2)
 						{
-							if ($longueurPwd <= 10)
+							if ($longueurPwd <= 30)
 							{
-								$requser = $bdd->prepare("SELECT * FROM membres WHERE user = ?");
-                $requser->execute(array($user));
-                $userExist = $requser->rowCount();
+							/*	$requser = $bdd->prepare("SELECT * FROM membres WHERE user = ?");*/
+								$stmt = mysqli_prepare($bdd, 'SELECT * FROM membres WHERE user = ?');
+                $stmt->execute();
+                $userExist = $stmt->rowCount();
 
 								if($userExist == 0) {
 
-									$insertmbr = $bdd->prepare("INSERT INTO membres(user, pwd) VALUES(?, ?)");
-                	$insertmbr->execute(array($user, $pwd));
+									/*$insertmbr = $bdd->prepare("INSERT INTO membres(user, pwd) VALUES(?, ?)");*/
+									$insertmbr = mysqli_prepare($bdd, 'INSERT INTO membres(user, pwd) VALUES(?, ?)');
+                	$insertmbr->execute();
                 	echo ": Votre compte a bien été créé ! <a href=\"login.php\">Me connecter</a>";
 								}
 								else{
