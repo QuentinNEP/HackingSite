@@ -22,13 +22,13 @@
 				<p>Vous êtes ici pour vous connectez à votre compte veuillez remplir les champs suivants !</p>
 					<h1>Connectez vous</h1>
         	<strong><p>Page de connection</p></strong>
-           <form method="post" action="traitement.php">
+           <form method="post" action="loginpage.php">
                <label for="identifiant">Votre identifiant : </label>
-                   <input type="text" name="identifiant" id="identifiant" placeholder="Ex : Identifiant" required>
+                   <input type="text" name="user" id="identifiant" placeholder="Ex : Identifiant" required>
 
                <label for="password">Mot de passe</label>
-                   <input type="password" name="password" maxlength="10" placeholder="**********" required>
-                       <button type="submit"> Connection </button>
+                   <input type="password" name="pwd" maxlength="10" placeholder="**********" required>
+                       <button type="submit" name="submit"> Connexion </button>
 			<hr>
 		</div>
 	</main>

@@ -4,10 +4,10 @@ session_start();
 
 $bdd = new PDO('mysql:host=localhost;dbname=hacking_connexion;charset=utf8', 'root', '');
 
-if(isset($_GET['submit']))
+if(isset($_POST['submit']))
 {
-	$user = htmlspecialchars($_GET['user']);
-	$pwd = sha1($_GET['pwd']);
+	$user = htmlspecialchars($_POST['user']);
+	$pwd = sha1($_POST['pwd']);
 	if(!empty($user) AND !empty($pwd))
 	{
 		$requser = $bdd->prepare("SELECT * FROM membres WHERE user = ? AND pwd = ?");
