@@ -8,18 +8,18 @@ $list_nom->fetch()['user'];
 
 $new_name = false;
 
-if (isset($_GET['submit']))
+if (isset($_POST['submit']))
 {
-	$user = htmlspecialchars($_GET['user']);
-	if(!empty($_GET['user']) AND !empty($_GET['pwd']) AND !empty($_GET['pwdConf']))
+	$user = htmlspecialchars($_POST['user']);
+	if(!empty($_POST['user']) AND !empty($_POST['pwd']) AND !empty($_POST['pwdConf']) AND !empty(&))
 	{
-		if($_GET['pwd'] == $_GET['pwdConf'])
+		if($_POST['pwd'] == $_POST['pwdConf'])
 		{
-			if($_GET['pwd'] != $_GET['user'])
+			if($_POST['pwd'] != $_POST['user'])
 			{
-				$longueurPwd = strlen($_GET['pwd']);
+				$longueurPwd = strlen($_POST['pwd']);
 
-				$pwd = sha1($_GET['pwd']);
+				$pwd = sha1($_POST['pwd']);
 
 				$longueurPseudo = strlen($user);
 				if ($longueurPseudo <= 20)

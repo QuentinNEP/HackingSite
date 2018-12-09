@@ -32,7 +32,7 @@
                    <input type="password" name="pwd" maxlength="10" placeholder="**********" required><br>
                 <label for="password">Confirmation :</label>
                    <input type="password" name="pwdConf" maxlength="10" placeholder="**********" required><br>
-                       <button type="submit"> S'inscrire </button></form>
+                       <button type="submit" name="submit"> S'inscrire </button></form>
 				<hr>
 		</div>
 	</main>
