@@ -11,7 +11,7 @@ $new_name = false;
 if (isset($_POST['submit']))
 {
 	$user = htmlspecialchars($_POST['user']);
-	if(!empty($_POST['user']) AND !empty($_POST['pwd']) AND !empty($_POST['pwdConf']) AND !empty(&))
+	if(!empty($_POST['user']) AND !empty($_POST['pwd']) AND !empty($_POST['pwdConf']) AND !empty($_POST['mail']))
 	{
 		if($_POST['pwd'] == $_POST['pwdConf'])
 		{
@@ -19,7 +19,7 @@ if (isset($_POST['submit']))
 			{
 				$longueurPwd = strlen($_POST['pwd']);
 
-				$pwd = sha1($_POST['pwd']);
+				$pwd = md5($_POST['pwd']);
 
 				$longueurPseudo = strlen($user);
 				if ($longueurPseudo <= 20)

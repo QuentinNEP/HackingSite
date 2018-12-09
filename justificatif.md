@@ -2,11 +2,11 @@
 
 Nous allons ici décrire nos choix et les expliquer afin de mieux les comprendre.
 
-## Choix mysqli
+## Choix PDO
 
-Nous avons choisi d'utiliser mysqli pour les liens entre PHP et la base de donnée
-car PDO est plus rapide et plus sécurisée. mysqli va ainsi nous permettre d'explorer
-certaines failles qui n'existent pas sur PDO.
+Même si PDO est plus sécurisé que mysqli il se trouve que les sites d'autoformation
+apprennent maintenant à utiliser PDO, mysqli ayant été abandonné. Il est donc
+beaucoup plus commun de trouvers des sites utilisant PDO que mysqli de nos jours.
 
 ## Choix formulaire POST
 
