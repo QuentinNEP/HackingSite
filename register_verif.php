@@ -30,13 +30,13 @@ if (isset($_POST['submit']))
 						{
 							if ($longueurPwd <= 30)
 							{
-								$requser = $bdd->prepare("SELECT * FROM membres WHERE user = ?");
+								$requser = $bdd->prepare("SELECT * FROM membres WHERE pseudo = ?");
                 $stmt->execute();
                 $userExist = $stmt->rowCount();
 
 								if($userExist == 0) {
 
-									$insertmbr = $bdd->prepare("INSERT INTO membres(user, pwd) VALUES(?, ?)");
+									$insertmbr = $bdd->prepare("INSERT INTO membres(pseudo, password) VALUES(?, ?)");
                 	$insertmbr->execute();
                 	echo ": Votre compte a bien été créé ! <a href=\"login.php\">Me connecter</a>";
 								}

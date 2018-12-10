@@ -10,7 +10,7 @@ if(isset($_POST['submit']))
 	$pwd = md5($_POST['pwd']);
 	if(!empty($user) AND !empty($pwd))
 	{
-		$requser = $bdd->prepare("SELECT * FROM membres WHERE user = ? AND pwd = ?");
+		$requser = $bdd->prepare("SELECT * FROM membres WHERE pseudo = ? AND password = ?");
 		$requser->execute(array($user, $pwd));
 		$userexist = $requser->rowCount();
 		if($userexist == 1)
