@@ -21,12 +21,13 @@
 			<h1>Espace d'inscription</h1>
 				<p>Vous êtes ici pour enregistrer, veuillez remplir les champs suivants !</p>
 				<h1>Inscrivez-vous</h1>
+				<?php include "register_verif.php"; ?>
 				<strong><p>Page d'inscription</p></strong>
            <form method="post" action="registerpage.php">
                <label for="identifiant">Votre identifiant : </label>
                    <input type="text" name="user" id="identifiant" placeholder="Ex : Siphano" required> <br>
 				<label for="email">Votre e-mail : </label>
-				   <input type="text" name="mail" id="email" placeholder="Ex : monemail@gmail.com" required> <br>
+				   <input type="text" name="email" id="email" placeholder="Ex : monemail@gmail.com" required> <br>
 
                <label for="password">Mot de passe :</label>
                    <input type="password" name="pwd" maxlength="10" placeholder="**********" required><br>
@@ -37,7 +38,7 @@
 		</div>
 	</main>
 	<footer>
-		<?php include "foot.php" ?>
+		<?php include "foot.php"; ?>
 	</footer>
 	</body>
 </html>
