@@ -33,15 +33,11 @@ if (isset($_POST['submit']))
 							{
 								if ($longueurPwd <= 30)
 								{
-									$requser = $bdd->prepare("SELECT * FROM membres WHERE pseudo = ?");
-	                $requser->execute(array($user));
+									$requser = $bdd->prepare("SELECT * FROM membres WHERE pseudo = ? AND email = ?");
+	                $requser->execute(array($user, $email));
 	                $userExist = $requser->rowCount();
 
-									$reqmail = $bdd->prepare("SELECT * FROM membres WHERE email = ?");
-									$reqmail->execute(array($email));
-									$mailExist = $reqmail->rowCount();
-
-									if($userExist == 0 and $mailExist == 0) {
+									if($userExist == 0) {
 
 										$insertmbr = $bdd->prepare("INSERT INTO membres(pseudo, password, email) VALUES(?, ?, ?)");
 	                	$insertmbr->execute(array($user, $pwd, $email));
