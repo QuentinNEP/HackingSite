@@ -3,14 +3,14 @@ Bleu clair :#74b9ff
 Bleu un peu moins clair : #0984e3
 Poupre pâle : #a29bfe
 Bleu pas tout à fait : #6c5ce7
-Gris mais pas trop : #2d3436
+Gris mais pas trop : black
 Rose hyper rose : #e84393
 */
 
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #2d3436;
+	background-color: black;
 	color: white;
 	font-family: topic;
 
@@ -28,31 +28,36 @@ footer hr {
 }
 nav {
 	text-align: center;
-	background-color: #74b9ff;
+	background-color: white;
 }
+
 nav a {
 	display: inline-block;
 	font-family: font1;
 
 	text-decoration: none;
 	color: black;
-	font-size: 2em;
+	font-size: 1.2em;
 	margin: 10px;
 
 }
 nav a:hover {
 	padding: 10px;
 	margin: 0px;
-	background-color: #2d3436;
-	color : #e84393;
-	border-bottom: 2px solid #e84393;
+	background-color: black;
+	color : white;
+	border-bottom: 2px solid white;
+}
+.backgroundhome {
+
+	width: 100vw;
 }
 .actif {
 	padding: 10px;
 	margin: 0px;
-	background-color: #2d3436;
-	color : #e84393;
-	border-bottom: 2px solid #e84393;
+	background-color: black;
+	color : white;
+	border-bottom: 2px solid white;
 }
 .login {
 	padding-top: 10%;
@@ -79,6 +84,7 @@ nav a:hover {
 
 
 }
+
 .xbox {
 	display: flex;
 	flex-direction: row;
@@ -89,6 +95,7 @@ nav a:hover {
 	max-width: 500px;
 	max-height : 500px;
 	margin: 20px;
+
 
 }
 .switch {
@@ -109,5 +116,4 @@ main {
 }
 form {
 	text-align: center;
-	
 }
