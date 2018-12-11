@@ -15,6 +15,7 @@
 			<a href="forum.php">Forum</a>
 			<a href="loginpage.php">Se connecter</a>
 			<a class="actif" href="registerpage.php">S'inscrire</a>
+			<a href="membre.php">Page membre</a>
 		</nav>
 
 	</header>
