@@ -5,11 +5,11 @@ CREATE TABLE `forum_categorie` (
   PRIMARY KEY  (`cat_id`),
   UNIQUE KEY `cat_ordre` (`cat_ordre`)
 );
- 
--- 
+
+--
 -- Table `forum_forum`
--- 
- 
+--
+
 CREATE TABLE `forum_forum` (
   `forum_id` int(11) NOT NULL AUTO_INCREMENT,
   `forum_cat_id` mediumint(8) NOT NULL,
@@ -25,13 +25,13 @@ CREATE TABLE `forum_forum` (
   `auth_annonce` tinyint(4) NOT NULL,
   `auth_modo` tinyint(4) NOT NULL,
   PRIMARY KEY  (`forum_id`)
-); 
- 
- 
--- 
+);
+
+
+--
 -- Table `forum_membres`
--- 
- 
+--
+
 CREATE TABLE `forum_membres` (
   `membre_id` int(11) NOT NULL AUTO_INCREMENT,
   `membre_pseudo` varchar(30) collate latin1_general_ci NOT NULL,
@@ -47,13 +47,13 @@ CREATE TABLE `forum_membres` (
   `membre_rang` tinyint (4) DEFAULT 2,
   `membre_post` int(11) NOT NULL,
   PRIMARY KEY  (`membre_id`)
-); 
- 
- 
--- 
+);
+
+
+--
 -- Table `forum_post`
--- 
- 
+--
+
 CREATE TABLE `forum_post` (
   `post_id` int(11) NOT NULL AUTO_INCREMENT,
   `post_createur` int(11) NOT NULL,
@@ -63,13 +63,13 @@ CREATE TABLE `forum_post` (
   `post_forum_id` int(11) NOT NULL,
   PRIMARY KEY  (`post_id`)
 );
- 
- 
- 
--- 
+
+
+
+--
 -- Table  `forum_topic`
--- 
- 
+--
+
 CREATE TABLE `forum_topic` (
   `topic_id` int(11) NOT NULL AUTO_INCREMENT,
   `forum_id` int(11) NOT NULL,
