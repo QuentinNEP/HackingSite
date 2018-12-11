@@ -19,9 +19,16 @@
             <img src="assets/image/backgrounds/background.jpg" alt="">
             <a href="index.php">Accueil</a>
             <a class="actif" href="forum.php">Forum</a>
+<<<<<<< HEAD
             <?php if($_GET['id'] == 0) { ?><a href='loginpage.php'>Se connecter</a>
             <a href='registerpage.php'>S'inscrire</a><?php } else { ?>
             <a href='membre.php'>Page membre</a><?php } ?>
+=======
+            <a href="loginpage.php">Se connecter</a>
+            <a href="registerpage.php">S'inscrire</a>
+            <a href="membre.php">Page membre</a>
+            <a href="topic.php">Les topics</a>
+>>>>>>> c036bdaf7da612ea6d1bb54a4decd867246d87b5
         </nav>
     <main>
 
@@ -113,7 +120,7 @@
                           <hr>
 
                             <h2 >Xbox One S Blanche 1
-                                To + Forza Horizon 4</h2>
+                                To + Forza Horizon 3</h2>
 														<div class="xbox">
                             <ul class="liste2">
                                 <li>Xbox One S Blanche 1 To</li>
@@ -122,6 +129,7 @@
                                 <li>1 Cordon d’alimentation</li>
                                 <li>2 Piles LR6</li>
                                 <li>1 Mois de Xbox Game Pass</li>
+                                <li>Le jeu Forza Horizon avec le DLC Hotwheels</li>
                             </ul>
 														<img src="assets/image/xboxforza.png" alt="">
 														</div>
@@ -142,6 +150,7 @@
                                 <li>1 Câble HDMI</li>
                                 <li>1 Adaptateur secteur Nintendo Switch</li>
                                 <li>1 Paire de dragonnes Joy-Con</li>
+                                <li>Le jeu Super Smash Bros. Ultimate</li>
                             </ul>
 														<img src="assets/image/switch.png" alt="">
 														</div>
