@@ -25,9 +25,9 @@
 				<strong><p>Page d'inscription</p></strong>
            <form method="post" action="registerpage.php">
                <label for="identifiant">Votre identifiant : </label>
-                   <input type="text" name="user" id="identifiant" placeholder="Ex : Siphano" required> <br>
+                   <input type="text" name="user" id="identifiant" placeholder="Ex : Siphano" value="<?php if(isset($user)){echo $user;}?>" required> <br>
 				<label for="email">Votre e-mail : </label>
-				   <input type="text" name="email" id="email" placeholder="Ex : monemail@gmail.com" required> <br>
+				   <input type="text" name="email" id="email" placeholder="Ex : monemail@gmail.com" value="<?php if(isset($email)){echo $email;}?>" required> <br>
 
                <label for="password">Mot de passe :</label>
                    <input type="password" name="pwd" maxlength="10" placeholder="**********" required><br>

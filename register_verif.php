@@ -34,17 +34,17 @@ if (isset($_POST['submit']))
 								if ($longueurPwd <= 30)
 								{
 									$requser = $bdd->prepare("SELECT * FROM membres WHERE pseudo = ?");
-	                $stmt->execute();
-	                $userExist = $stmt->rowCount();
+	                $requser->execute(array($user));
+	                $userExist = $requser->rowCount();
 
-									$requser = $bdd->prepare("SELECT * FROM membres WHERE email = ?");
-									$stmt->execute();
-									$mailExist = $stmt->rowCount();
+									$reqmail = $bdd->prepare("SELECT * FROM membres WHERE email = ?");
+									$reqmail->execute(array($email));
+									$mailExist = $reqmail->rowCount();
 
-									if($userExist == 0 | $mailExist == 0) {
+									if($userExist == 0 and $mailExist == 0) {
 
 										$insertmbr = $bdd->prepare("INSERT INTO membres(pseudo, password, email) VALUES(?, ?, ?)");
-	                	$insertmbr->execute();
+	                	$insertmbr->execute(array($user, $pwd, $email));
 	                	echo ": Votre compte a bien été créé ! <a href=\"login.php\">Me connecter</a>";
 									}
 									else{
