@@ -12,6 +12,7 @@
 			<a href="forum.php">Forum</a>
 			<a href="loginpage.php">Se connecter</a>
 			<a href="registerpage.php">S'inscrire</a>
+			<a href="membre.php">Page membre</a>
 		</nav>
 		<h1>Bienvenue</h1>
 		<p>Bonjour et bienvnue sur le site de JV des 18/25 ans</p>
