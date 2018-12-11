@@ -37,7 +37,7 @@
          ?>
        <?php }
        else {
-          echo ": Vous n'êtes pas connecté ! <a href=\"loginpage.php\">Se connecter</a>";
+          echo "Vous n'êtes pas connecté ! <a href=\"loginpage.php\">Se connecter</a>";
         }; ?>
       </div>
    </body>

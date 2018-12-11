@@ -41,42 +41,42 @@ if (isset($_POST['submit']))
 
 										$insertmbr = $bdd->prepare("INSERT INTO membres(pseudo, password, email) VALUES(?, ?, ?)");
 	                	$insertmbr->execute(array($user, $pwd, $email));
-	                	echo ": Votre compte a bien été créé ! <a href=\"login.php\">Me connecter</a>";
+	                	echo "Votre compte a bien été créé ! <a href=\"login.php\">Me connecter</a>";
 									}
 									else{
-										echo ": Username ou adresse email déja utilisé";
+										echo "Username ou adresse email déja utilisé";
 									}
 								}
 								else{
-									echo ": Votre mot de passe est trop long";
+									echo "Votre mot de passe est trop long";
 								}
 							}
 							else{
-								echo ": Votre mot de passe est trop court";
+								echo "Votre mot de passe est trop court";
 							}
 						}
 						else{
-							echo ": Votre pseudo est trop court";
+							echo "Votre pseudo est trop court";
 						}
 					}
 					else{
-						echo ": Votre pseudo est trop long";
+						echo "Votre pseudo est trop long";
 					}
 				}
 				else{
-					echo ": Le mot de passe doit être différent du pseudo.";
+					echo "Le mot de passe doit être différent du pseudo.";
 				}
 			}
 			else{
-				echo ": Les mots de passe doivent être identiques.";
+				echo "Les mots de passe doivent être identiques.";
 		 }
 	 }
 		 else{
-			 echo ": Le format de l'adresse email n'est pas valide";
+			 echo "Le format de l'adresse email n'est pas valide";
 		}
 	}
 	else {
-		echo ": Veuillez remplir tous les champs";
+		echo "Veuillez remplir tous les champs";
 
 	}
 }

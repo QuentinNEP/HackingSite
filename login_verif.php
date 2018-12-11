@@ -21,11 +21,11 @@ if(isset($_POST['submit']))
       header("Location: membre.php?id=".$_SESSION['id']);
 		}
 		else{
-			echo ": Incorrect password or username";
+			echo "Incorrect password or username";
 		}
 	}
 	else{
-		echo ": Veuillez remplir tous les champs";
+		echo "Veuillez remplir tous les champs";
 	}
 }
 
