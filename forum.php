@@ -11,6 +11,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="main.js"></script>
 </head>
+<?php include("config-membre.php")?>
 
 <body>
     <header>
@@ -18,12 +19,10 @@
             <img src="assets/image/backgrounds/background.jpg" alt="">
             <a href="index.php">Accueil</a>
             <a class="actif" href="forum.php">Forum</a>
-            <a href="loginpage.php">Se connecter</a>
-            <a href="registerpage.php">S'inscrire</a>
-            <a href="membre.php">Page membre</a>
+            <?php if($_GET['id'] == 0) { ?><a href='loginpage.php'>Se connecter</a>
+            <a href='registerpage.php'>S'inscrire</a><?php } else { ?>
+            <a href='membre.php'>Page membre</a><?php } ?>
         </nav>
-
-    </header>
     <main>
 
         <h1>Espace de discussion</h1>

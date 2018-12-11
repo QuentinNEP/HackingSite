@@ -7,13 +7,14 @@
 	</head>
 	<body>
 	<header>
-		<nav>
-			<a href="index.php">Accueil</a>
-			<a href="forum.php">Forum</a>
-			<a href="loginpage.php">Se connecter</a>
-			<a href="registerpage.php">S'inscrire</a>
-      <a class="actif" href="membre.php">Page membre</a>
-		</nav>
+    <nav data-aos="fade-down">>
+        <img src="assets/image/backgrounds/background.jpg" alt="">
+        <a href="index.php">Accueil</a>
+        <a href="forum.php">Forum</a>
+        <?php if($_GET['id'] == 0) { ?><a href='loginpage.php'>Se connecter</a>
+        <a href='registerpage.php'>S'inscrire</a><?php } else { ?>
+        <a class="actif" href='membre.php'>Page membre</a><?php } ?>
+    </nav>
 
 
 <?php include("config-membre.php")?>

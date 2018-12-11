@@ -1,5 +1,4 @@
 <?php
-session_start();
 
 $bdd = new PDO('mysql:host=localhost;dbname=hacking_connexion;charset=utf8', 'root', '');
 
