@@ -9,7 +9,6 @@
 	</head>
 	<body>
 	<header>
-<<<<<<< HEAD
 		<?php include("config-membre.php")?>
 		<nav data-aos="fade-down">>
 				<img src="assets/image/backgrounds/background.jpg" alt="">
@@ -18,16 +17,6 @@
 				<?php if($_GET['id'] == 0) { ?><a class="actif" href='loginpage.php'>Se connecter</a>
 				<a href='registerpage.php'>S'inscrire</a><?php } else { ?>
 				<a href='membre.php'>Page membre</a><?php } ?>
-=======
-		<nav data-aos="fade-down">
-			<img src="assets/image/backgrounds/background.jpg" alt="">
-			<a href="index.php">Accueil</a>
-			<a href="forum.php">Forum</a>
-			<a class="actif" href="loginpage.php">Se connecter</a>
-			<a href="registerpage.php">S'inscrire</a>
-			<a href="membre.php">Page membre</a>
-			<a href="topic.php">Les topics</a>
->>>>>>> c036bdaf7da612ea6d1bb54a4decd867246d87b5
 		</nav>
 
 
