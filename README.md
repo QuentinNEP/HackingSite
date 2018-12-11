@@ -10,7 +10,7 @@
 * Les fonctionnements d'inscription et de connexion sont finis, il ne reste qu'à les implémenter sur le site.
 * Les pages membres sont en préparation.
 * Enzo SPITERI a été ajouté à l'équipe de développement.
-* La formation au JS et sur le point de se finir.
+* La formation au JS est sur le point de se finir.
 * La gestion des cookies est presque fonctionnelle.
 * Les bases de données sont crées et partagées sur le GitHub.
 
