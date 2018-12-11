@@ -13,6 +13,7 @@
 			<a href="loginpage.php">Se connecter</a>
 			<a href="registerpage.php">S'inscrire</a>
       <a class="actif" href="membre.php">Page membre</a>
+			<a href="topic.php">Les topics</a>
 		</nav>
 
 
