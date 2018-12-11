@@ -114,7 +114,7 @@
                           <hr>
 
                             <h2 >Xbox One S Blanche 1
-                                To + Forza Horizon 4</h2>
+                                To + Forza Horizon 3</h2>
 														<div class="xbox">
                             <ul class="liste2">
                                 <li>Xbox One S Blanche 1 To</li>
@@ -123,6 +123,7 @@
                                 <li>1 Cordon d’alimentation</li>
                                 <li>2 Piles LR6</li>
                                 <li>1 Mois de Xbox Game Pass</li>
+                                <li>Le jeu Forza Horizon avec le DLC Hotwheels</li>
                             </ul>
 														<img src="assets/image/xboxforza.png" alt="">
 														</div>
@@ -143,6 +144,7 @@
                                 <li>1 Câble HDMI</li>
                                 <li>1 Adaptateur secteur Nintendo Switch</li>
                                 <li>1 Paire de dragonnes Joy-Con</li>
+                                <li>Le jeu Super Smash Bros. Ultimate</li>
                             </ul>
 														<img src="assets/image/switch.png" alt="">
 														</div>
