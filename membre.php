@@ -17,12 +17,7 @@
 
 
 <?php include("config-membre.php")?>
-
-<html>
-   <head>
-      <title>OUI LA REUSSITE !</title>
-      <meta charset="utf-8">
-   </head>
+<?php if(isset($_GET['id']) AND $_GET['id'] > 0) {?>
    <body>
       <div align="center">
          <h2>Profil de <?php echo $userinfo['pseudo']; ?></h2>
@@ -31,6 +26,7 @@
          <br />
          E-mail = <?php echo $userinfo['email']; ?>
          <br />
+
          <?php
          if(isset($_SESSION['id']) AND $userinfo['id'] == $_SESSION['id']) {
          ?>
@@ -39,6 +35,10 @@
          <?php
          }
          ?>
+       <?php }
+       else {
+          echo ": Vous n'êtes pas connecté ! <a href=\"login.php\">Se connecter</a>";
+        }; ?>
       </div>
    </body>
 </html>

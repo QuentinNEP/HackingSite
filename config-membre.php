@@ -9,7 +9,5 @@ if(isset($_GET['id']) AND $_GET['id'] > 0) {
    $requser->execute(array($getid));
    $userinfo = $requser->fetch();
  }
- else {
-   echo ": Vous n'êtes pas connecté ! <a href=\"login.php\">Se connecter</a>";
- }
+
 ?>
