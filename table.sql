@@ -2,6 +2,7 @@ CREATE TABLE `post` (
   `post_id` int(10) NOT NULL AUTO_INCREMENT,
   `auteur` varchar(255) NOT NULL,
   `texte` text NOT NULL,
+  `titre` text NOT NULL,
   PRIMARY KEY  (`post_id`));
 
 CREATE TABLE `membres` (
