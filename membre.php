@@ -17,7 +17,7 @@
     </nav>
 
 
-<?php/* include("config-membre.php")*/?>
+<?php include("config-membre.php")?>
 <?php if(isset($_GET['id']) AND $_GET['id'] > 0) {?>
    <body>
       <div align="center">
