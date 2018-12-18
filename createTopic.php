@@ -6,5 +6,5 @@
 
     <label for="texte">Texte</label>
         <input type="text" name="texte" required>
-            <button type="submit" name="submit"> créer </button>
+            <button type="submit" name="submit"> Créer </button>
  </form>
