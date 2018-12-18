@@ -9,13 +9,12 @@
 	</head>
 	<body>
 	<header>
-		<?php/*
-		$bdd = new PDO('mysql:host=localhost;dbname=hacking_connexion;charset=utf8', 'root', '');
-		include("functions.php");
-		include("config-membre.php")*/
+		<?php
+		include("config-membre.php");
+
 		?>
 
-		<nav data-aos="fade-down">>
+		<nav data-aos="fade-down">
 				<img src="assets/image/backgrounds/background.jpg" alt="">
 				<a class="actif" href="index.php">Accueil</a>
 				<a  href="forum.php">Forum</a>
