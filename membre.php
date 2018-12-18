@@ -7,7 +7,7 @@
 	</head>
 	<body>
 	<header>
-    <nav data-aos="fade-down">>
+    <nav data-aos="fade-down">
         <img src="assets/image/backgrounds/background.jpg" alt="">
         <a href="index.php">Accueil</a>
         <a href="forum.php">Forum</a>
@@ -20,7 +20,7 @@
 <?php include("config-membre.php")?>
 <?php if(isset($_GET['id']) AND $_GET['id'] > 0) {?>
    <body>
-      <div align="center">
+      <div class="phpclass" align="center">
          <h2>Profil de <?php echo $userinfo['pseudo']; ?></h2>
          <br />
          Pseudo = <?php echo $userinfo['pseudo']; ?>
