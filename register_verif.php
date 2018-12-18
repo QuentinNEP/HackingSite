@@ -41,6 +41,7 @@ if (isset($_POST['submit']))
 										$insertmbr = $bdd->prepare("INSERT INTO membres(pseudo, password, email) VALUES(?, ?, ?)");
 	                	$insertmbr->execute(array($user, $pwd, $email));
 	                	echo "Votre compte a bien été créé ! <a href=\"loginpage.php\">Me connecter</a>";
+										RedirectionRegister ();
 									}
 									else{
 										echo "Username ou adresse email déja utilisé";
@@ -79,5 +80,5 @@ if (isset($_POST['submit']))
 
 	}
 }
-
+<script type="text/javascript" src="main.js"></script>
  ?>
