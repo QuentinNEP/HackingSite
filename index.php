@@ -9,7 +9,11 @@
 	</head>
 	<body>
 	<header>
-		<?php/* include("config-membre.php")*/?>
+		<?php include("functions.php");
+		/* include("config-membre.php")*/
+		verif_bdd();
+		?>
+
 		<nav data-aos="fade-down">>
 				<img src="assets/image/backgrounds/background.jpg" alt="">
 				<a class="actif" href="index.php">Accueil</a>
@@ -17,7 +21,7 @@
 				<a href='loginpage.php'>Se connecter</a>
 				<a href='registerpage.php'>S'inscrire</a>
 				<a href='membre.php'>Page membre</a>
-		</nav>
+		</nav
 	</header>
 	<main>
 
