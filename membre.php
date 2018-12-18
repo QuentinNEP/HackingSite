@@ -18,8 +18,6 @@
 
 
 <<<<<<< HEAD
-<?php include("assets\backPHP\config-membre.php")?>
-<?php if(isset($_GET['id']) AND $_GET['id'] > 0) {?>
 =======
 <?php include("assets\backPHP\config-membre.php");?>
 <?php if(isset($getid) AND $getid > 0) {?>
