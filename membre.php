@@ -17,8 +17,13 @@
     </nav>
 
 
+<<<<<<< HEAD
 <?php include("config-membre.php")?>
 <?php if(isset($_GET['id']) AND $_GET['id'] > 0) {?>
+=======
+<?php include("config-membre.php");?>
+<?php if(isset($getid) AND $getid > 0) {?>
+>>>>>>> 90813da6f2368ce23a22ee1dfe9ca9beba545d17
    <body>
       <div class="phpclass" align="center">
          <h2>Profil de <?php echo $userinfo['pseudo']; ?></h2>

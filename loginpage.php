@@ -36,6 +36,7 @@
                <label for="password">Mot de passe</label>
                    <input type="password" name="pwd" maxlength="10" placeholder="**********" required>
                        <button type="submit" name="submit"> Connexion </button>
+						</form>
 			<hr>
 		</div>
 	</main>

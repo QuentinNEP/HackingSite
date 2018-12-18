@@ -4,6 +4,7 @@
 		<link rel="stylesheet" href="assets/style/style.css">
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script type="text/javascript" src="main.js"></script>
 		<meta charset="utf-8">
 		<title>S'enregistrer</title>
 	</head>
