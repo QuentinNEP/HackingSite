@@ -27,7 +27,7 @@
 
         <h1>Espace de discussion</h1>
         <p>Vous êtes ici pour parlez de sujet en rapport avec les jeux vidéos, d'actualité ou non !</p>
-        
+        <a href="createTopic.php"><img src="assets\image\+.png" alt="+" height="20" width="20"></a>
     </main>
     <footer>
         <?php include "foot.php" ?>
