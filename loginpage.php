@@ -10,7 +10,7 @@
 	<body>
 	<header>
 		<?php/* include("config-membre.php")*/?>
-		<nav data-aos="fade-down">>
+		<nav data-aos="fade-down">
 				<img src="assets/image/backgrounds/background.jpg" alt="">
 				<a href="index.php">Accueil</a>
 				<a href="forum.php">Forum</a>

@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <nav data-aos="fade-down">>
+        <nav data-aos="fade-down">
             <img src="assets/image/backgrounds/background.jpg" alt="">
             <a href="index.php">Accueil</a>
             <a class="actif" href="forum.php">Forum</a>
