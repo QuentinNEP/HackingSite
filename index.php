@@ -9,10 +9,9 @@
 	</head>
 	<body>
 	<header>
-		<?php/*
-		$bdd = new PDO('mysql:host=localhost;dbname=hacking_connexion;charset=utf8', 'root', '');
-		include("functions.php");
-		include("config-membre.php")*/
+		<?php
+		include("config-membre.php");
+
 		?>
 
 		<nav data-aos="fade-down">>
