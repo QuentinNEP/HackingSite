@@ -42,7 +42,7 @@ if (isset($_POST['submit']))
 	                	$insertmbr->execute(array($user, $pwd, $email));
 	                	echo "Votre compte a bien été créé ! <a href=\"loginpage.php\">Me connecter</a>";
 										?>
-										<script type="text/javascript" src="HackingSite/assets/script/main.js">RedirectionRegister()</script>
+										<script type="text/javascript" src="main.js">RedirectionRegister()</script>
 										<?php
 									}
 									else{
