@@ -9,7 +9,7 @@
 	</head>
 	<body>
 	<header>
-		<?php include("config-membre.php")?>
+		<?php include("assets\backPHP\config-membre.php")?>
 		<nav data-aos="fade-down">>
 				<img src="assets/image/backgrounds/background.jpg" alt="">
 				<a href="index.php">Accueil</a>
@@ -25,7 +25,7 @@
 		<div class="login">
 			<hr>
 			<h1>Espace de connection</h1>
-			<?php  include 'login_verif.php';   ?>
+			<?php  include('assets\backPHP\login_verif.php');   ?>
 				<p>Vous êtes ici pour vous connectez à votre compte veuillez remplir les champs suivants !</p>
 					<h1>Connectez vous</h1>
         	<strong><p>Page de connection</p></strong>

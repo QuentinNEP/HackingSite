@@ -11,7 +11,7 @@
 	<body>
 	<header>
 
-		<?php include("config-membre.php")?>
+		<?php include("assets\backPHP\config-membre.php")?>
 		<nav data-aos="fade-down">>
 				<img src="assets/image/backgrounds/background.jpg" alt="">
 				<a href="index.php">Accueil</a>
@@ -28,7 +28,7 @@
 			<h1>Espace d'inscription</h1>
 				<p>Vous êtes ici pour enregistrer, veuillez remplir les champs suivants !</p>
 				<h1>Inscrivez-vous</h1>
-				<?php include "register_verif.php"; ?>
+				<?php include("assets\backPHP\register_verif.php"); ?>
 				<strong><p>Page d'inscription</p></strong>
            <form method="post" action="registerpage.php">
                <label for="identifiant">Votre identifiant : </label>
