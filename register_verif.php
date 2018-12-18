@@ -83,4 +83,4 @@ if (isset($_POST['submit']))
 	}
 }
  ?>
- <script type="text/javascript" src="main.js"></script>
+ <script type="text/javascript" src="/assets/script/main.js"></script>
