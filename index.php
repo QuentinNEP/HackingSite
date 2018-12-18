@@ -24,6 +24,7 @@
 		</nav
 	</header>
 	<main>
+		<h1>Actualités des promos</h1>
 		<article class="article1">
 				<h2>03 SEPTEMBRE
 						<h3>Red Dead Redemption meilleur jeu de l'année ?</h3>
