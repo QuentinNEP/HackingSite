@@ -29,7 +29,21 @@
     				data-aos-delay="300">Espace de discussion</h1>
         <p>Vous êtes ici pour parlez de sujet en rapport avec les jeux vidéos, d'actualité ou non !</p>
         <a href="createTopic.php"><img src="assets\image\+.png" alt="+" height="20" width="20"></a>
-        <?php  ?>
+          <?php
+          $bdd = new PDO('mysql:host=localhost;dbname=hacking_connexion;charset=utf8', 'root', '');
+          $result = $bdd->query('SELECT * FROM post');
+          while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
+            ?>
+            <p>=========================================</p>
+            <p>Auteur : <?php echo $row['auteur'] ?></p>
+            <p>=========================================</p>
+            <p><?php echo $row['titre'] ?></p>
+            <p><?php echo $row['texte'] ?></p>
+
+            <?php
+          }
+
+           ?>
     </main>
     <footer>
         <?php include "foot.php" ?>
