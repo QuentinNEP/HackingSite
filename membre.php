@@ -41,7 +41,7 @@
          ?>
        <?php }
        else {
-          echo "Vous n'êtes pas connecté ! <a href=\"loginpage.php\">Se connecter</a>";
+          echo "Vous n'êtes pas connecté ! <a href=\"loginpage.php\" style='color: red;'>Se connecter</a>";
         }; ?>
       </div>
 			<p><input type="button" value="Changer mon mot de passe !">
