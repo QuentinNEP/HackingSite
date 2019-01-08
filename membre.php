@@ -8,7 +8,6 @@
 	<body>
 	<header>
     <nav data-aos="fade-down">
-        <img src="assets/image/backgrounds/background.jpg" alt="">
         <a href="index.php">Accueil</a>
         <a href="forum.php">Forum</a>
         <a href='loginpage.php'>Se connecter</a>
@@ -47,7 +46,6 @@
 			<p><input type="button" value="Changer mon mot de passe !">
 				<h1>Changer mon mot de passe</h1>
        <?php
-      session_start();
       if(isset($_SESSION['id']) AND isset($_SESSION['pseudo']))
       {
       ?>
