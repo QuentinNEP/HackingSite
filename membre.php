@@ -7,8 +7,7 @@
 	</head>
 	<body>
 	<header>
-    <nav data-aos="fade-down">
-        <img src="assets/image/backgrounds/background.jpg" alt="">
+    <nav data-aos="fade-down">    
         <a href="index.php">Accueil</a>
         <a href="forum.php">Forum</a>
         <a href='loginpage.php'>Se connecter</a>

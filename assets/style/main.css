@@ -1,11 +1,8 @@
-/* Charte Grahpique :
-Bleu clair :#74b9ff
-Bleu un peu moins clair : #0984e3
-Poupre pâle : #a29bfe
-Bleu pas tout à fait : #6c5ce7
-Gris mais pas trop : black
-Rose hyper rose : #e84393
-*/
+
+
+::-webkit-scrollbar {
+    width:0px;
+}
 
 body {
 	margin: 0;
@@ -18,25 +15,30 @@ body {
 main {
 	min-height: 100vh;
 }
-footer {
+footer p {
 	text-align: center;
 	padding: 10px;
-	font-size: 1.2em;
+	font-size: 20px;
 }
+ul,p {
+	font-size: 30px;
+}
+
+
 footer hr {
-	width: 100vh;
+	width: 120vh;
 }
 nav {
 	text-align: center;
 	background-color: white;
+	z-index: 10;
+	position: sticky;
+ 	top: 0;
 }
-header img {
-	max-width: 100%;
-}
+
 nav a {
 	display: inline-block;
 	font-family: font1;
-
 	text-decoration: none;
 	color: black;
 	font-size: 1.2em;

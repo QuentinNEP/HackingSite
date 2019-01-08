@@ -11,7 +11,6 @@
 	<header>
 		<?php include("assets\backPHP\config-membre.php")?>
 		<nav data-aos="fade-down">>
-				<img src="assets/image/backgrounds/background.jpg" alt="">
 				<a href="index.php">Accueil</a>
 				<a href="forum.php">Forum</a>
 				<a class="actif" href='loginpage.php'>Se connecter</a>
