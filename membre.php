@@ -34,7 +34,7 @@
          if(isset($_SESSION['id']) AND $userinfo['id'] == $_SESSION['id']) {
          ?>
          <br />
-         <a href="deconnect.php">Deconnect</a>
+         <a href="assets\backPHP\deconnect.php">Deconnect</a>
          <?php
          }
          ?>
