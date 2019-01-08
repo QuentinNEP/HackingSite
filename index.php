@@ -10,10 +10,7 @@
 	</head>
 	<body>
 	<header>
-		<?php
-		include("assets\backPHP\config-membre.php");
 
-		?>
 
 		<nav data-aos="fade-down">
 				<a class="actif" href="index.php">Accueil</a>

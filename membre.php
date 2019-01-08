@@ -19,7 +19,6 @@
 
 <<<<<<< HEAD
 =======
-<?php include("assets\backPHP\config-membre.php");?>
 <?php if(isset($getid) AND $getid > 0) {?>
 >>>>>>> 90813da6f2368ce23a22ee1dfe9ca9beba545d17
    <body>
@@ -35,7 +34,7 @@
          if(isset($_SESSION['id']) AND $userinfo['id'] == $_SESSION['id']) {
          ?>
          <br />
-         <a href="deconnect.php">Deconnect</a>
+         <a href="assets\backPHP\deconnect.php">Deconnect</a>
          <?php
          }
          ?>

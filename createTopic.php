@@ -1,5 +1,5 @@
 <?php
-include("assets\backPHP\config-membre.php"); ?>
+
 
 <?php if(isset($getid) AND $getid > 0){  include("TopicBack.php");?>
 
