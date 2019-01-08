@@ -38,7 +38,7 @@
                    <input type="password" name="pwd" maxlength="10" placeholder="**********" required>
                        <button type="submit" name="submit"> Connexion </button>
 						</form>
-			<hr>
+			<br/><hr>
 		</div>
 	</main>
 	<footer>
