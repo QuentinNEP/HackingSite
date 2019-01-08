@@ -28,7 +28,7 @@
 			<h1>Espace d'inscription</h1>
 				<p>Vous êtes ici pour enregistrer, veuillez remplir les champs suivants !</p>
 				<h1>Inscrivez-vous</h1>
-				<?php include("assets\backPHP\register_verif.php"); ?>
+				<?php include("assets\backPHP\Aregister_verif.php"); ?>
 				<strong><p>Page d'inscription</p></strong>
            <form method="post" action="registerpage.php">
                <label for="identifiant">Votre identifiant : </label>
