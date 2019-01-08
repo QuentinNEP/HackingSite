@@ -10,7 +10,6 @@
 	</head>
 	<body>
 	<header>
-		<?php include("assets\backPHP\config-membre.php")?>
 		<nav data-aos="fade-down">>
 				<a href="index.php">Accueil</a>
 				<a href="forum.php">Forum</a>

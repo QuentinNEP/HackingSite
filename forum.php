@@ -12,7 +12,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="main.js"></script>
 </head>
-<?php include("assets\backPHP\config-membre.php");?>
 
 <body>
     <header>
