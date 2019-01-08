@@ -21,8 +21,9 @@
 		</nav>
 	</header>
 	<main>
-		<h1>Actualités des promos</h1>
-		<article class="article1">
+		<h1 class="titlecenter" data-aos="fade-right"
+				data-aos-delay="300">Actualités des promos</h1>
+		<article data-aos="fade-down" class="article1">
 				<h2>03 SEPTEMBRE
 						<h3>Red Dead Redemption meilleur jeu de l'année ?</h3>
 						<ul>
@@ -61,7 +62,7 @@
 
 						<hr>
 			</article>
-						<article class="article2">
+						<article data-aos="fade-right" class="article2">
 								<h2>30 NOVEMBRE
 										<ul>
 												<h3>Les cadeaux à faire pour ce Noël</h3>
@@ -93,7 +94,7 @@
 												<h2>PS4 Slim Noire 1 To
 														+
 														Marvel's Spider-Man</h2>
-												<div  class="psn">
+												<div data-aos="fade-up" class="psn">
 
 												<ul class="liste1">
 														<li>PlayStation 4 Slim Noire 1 To</li>
@@ -109,7 +110,7 @@
 
 												<h2 >Xbox One S Blanche 1
 														To + Forza Horizon 3</h2>
-												<div class="xbox">
+												<div data-aos="fade-up" class="xbox">
 												<ul class="liste2">
 														<li>Xbox One S Blanche 1 To</li>
 														<li>1 Manette sans fil Xbox One</li>
@@ -129,7 +130,7 @@
 
 												<h2>Nintendo
 														Switch édition Smash Bros + Super Smash Bros. Ultimate</h2>
-												<div class="switch">
+												<div data-aos="fade-up" class="switch">
 												<ul class="liste3">
 														<li>Nintendo Switch édition Smash Bros</li>
 														<li>Manettes Joy-Con</li>
