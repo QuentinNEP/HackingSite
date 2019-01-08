@@ -105,7 +105,7 @@
 														<li>1 Câble USB</li>
 														<li>1 Cordon d’alimentation</li>
 												</ul>
-													<img src="assets/image/PS4sp.png" alt="">
+													<a href="https://www.amazon.fr/PS4-noir-Marvels-Spider-Man-Standard/dp/B07G235YQQ/ref=asc_df_B07G235YQQ/?tag=googshopfr-21&linkCode=df0&hvadid=228002133815&hvpos=1o1&hvnetw=g&hvrand=16224990098210339072&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1006362&hvtargid=pla-584042179807&psc=1"><img src="assets/image/PS4sp.png" alt=""></a>
 												</div>
 											<hr>
 
@@ -121,7 +121,7 @@
 														<li>1 Mois de Xbox Game Pass</li>
 														<li>Le jeu Forza Horizon avec le DLC Hotwheels</li>
 												</ul>
-												<img src="assets/image/xboxforza.png" alt="">
+												<a href="https://www.fnac.com/Pack-Console-Microsoft-Xbox-One-S-1-To-Forza-Horizon-3-Hot-Wheels/a11105520/w-4?oref=00000000-0000-0000-0000-000000000000&Origin=SEA_GOOGLE_PLA_CONSOL&esl-k=sem-google%7cng%7cc294697013491%7cm%7ckpla523542896150%7cp%7ct%7cdc%7ca58882735893%7cg1558059550&gclid=Cj0KCQiAsdHhBRCwARIsAAhRhslZfzbZJp31l1VvVXuhDS35-526atX8ouOZBrPrebc3OMIviC0NB04aAtWtEALw_wcB&gclsrc=aw.ds"><img src="assets/image/xboxforza.png" alt=""></a>
 												</div>
 												<p>Simple mais efficace, ce pack qui contient une Xbox One S 1 To avec Forza Horizon 4, en
 														plus d'un mois de Xbox Game Pass, est un bon moyen d'entrer dans l'univers de la
@@ -142,7 +142,7 @@
 														<li>1 Paire de dragonnes Joy-Con</li>
 														<li>Le jeu Super Smash Bros. Ultimate</li>
 												</ul>
-												<img src="assets/image/switch.png" alt="">
+												<a href="https://www.amazon.fr/Nintendo-Switch-Super-Ultimate-NVIDIA/dp/B07HCVBGBS/ref=asc_df_B07HCVBGBS/?tag=googshopfr-21&linkCode=df0&hvadid=313711453621&hvpos=1o1&hvnetw=g&hvrand=4115513916295167916&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1006362&hvtargid=pla-588505567601&psc=1&tag=&ref=&adgrpid=62485689975&hvpone=&hvptwo=&hvadid=313711453621&hvpos=1o1&hvnetw=g&hvrand=4115513916295167916&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1006362&hvtargid=pla-588505567601"><img src="assets/image/switch.png" alt=""></a>
 												</div>
 												<p>Voilà un bundle qui devrait cartonner pour les fêtes de fin d'année. Comprenant une
 														Switch collector ainsi que le jeu Super Smash Bros. Ultimate, il ravira les passionnés

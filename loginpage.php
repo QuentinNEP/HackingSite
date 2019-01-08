@@ -18,7 +18,6 @@
 				<a href='membre.php'>Page membre</a>
 		</nav>
 
-
 	</header>
 	<main>
 		<div class="login">
@@ -26,6 +25,7 @@
 			<h1>Espace de connection</h1>
 			<?php  include('assets\backPHP\login_verif.php');   ?>
 				<p>Vous êtes ici pour vous connectez à votre compte veuillez remplir les champs suivants !</p>
+				<p>Vous n'avez pas de compte ? Inscrivez-vous <a href="registerpage.php" style="color: red;">Ici</a>.</p>
 					<h1>Connectez vous</h1>
         	<strong><p>Page de connection</p></strong>
            <form method="post" action="loginpage.php">
@@ -36,7 +36,7 @@
                    <input type="password" name="pwd" maxlength="10" placeholder="**********" required>
                        <button type="submit" name="submit"> Connexion </button>
 						</form>
-			<hr>
+			<br/><hr>
 		</div>
 	</main>
 	<footer>
