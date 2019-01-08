@@ -5,7 +5,8 @@
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<meta charset="utf-8">
-		<title>Acceuil</title>
+		<link rel="shortcut icon" type="image/x-icon" href="assets/image/gamepad.ico">
+		<title>Accueil</title>
 	</head>
 	<body>
 	<header>
