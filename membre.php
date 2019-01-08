@@ -3,6 +3,7 @@
 	<head>
 		<link rel="stylesheet" href="assets/style/style.css">
 		<meta charset="utf-8">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/image/gamepad.ico">
 		<title>Page membre</title>
 	</head>
 	<body>
