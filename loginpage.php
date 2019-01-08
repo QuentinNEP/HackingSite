@@ -19,7 +19,6 @@
 				<a href='membre.php'>Page membre</a>
 		</nav>
 
-
 	</header>
 	<main>
 		<div class="login">
