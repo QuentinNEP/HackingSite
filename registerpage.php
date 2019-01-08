@@ -6,6 +6,7 @@
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script type="text/javascript" src="main.js"></script>
 		<meta charset="utf-8">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/image/gamepad.ico">
 		<title>S'enregistrer</title>
 	</head>
 	<body>

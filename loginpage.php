@@ -5,6 +5,7 @@
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<link rel="stylesheet" href="assets/style/style.css">
 		<meta charset="utf-8">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/image/gamepad.ico">
 		<title>Se connecter</title>
 	</head>
 	<body>
