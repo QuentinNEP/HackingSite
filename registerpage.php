@@ -26,6 +26,7 @@
 			<hr>
 			<h1>Espace d'inscription</h1>
 				<p>Vous êtes ici pour enregistrer, veuillez remplir les champs suivants !</p>
+				<p>Vous vous êtes déjà enregistré ? Connectez-vous alors <a href="registerpage.php" style="color: red;">Ici</a>.</p>
 				<h1>Inscrivez-vous</h1>
 				<?php include("assets\backPHP\Aregister_verif.php"); ?>
 				<strong><p>Page d'inscription</p></strong>

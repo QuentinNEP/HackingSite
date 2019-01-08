@@ -45,7 +45,14 @@
 					 echo "Vous devez être connecté pour accéder à ce profil.";
 				 }
          ?>
+<<<<<<< HEAD
 
+=======
+       <?php }
+       else {
+          echo "Vous n'êtes pas connecté ! <a href=\"loginpage.php\" style='color: red;'>Se connecter</a>";
+        }; ?>
+>>>>>>> 89bd2894014ba9855056d2d9ffe6b01a988a1404
       </div>
 
    </body>

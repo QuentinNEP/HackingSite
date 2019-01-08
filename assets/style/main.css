@@ -23,7 +23,15 @@ footer p {
 ul,p {
 	font-size: 30px;
 }
+h3 {
+	font-size: 35px;
+}
 
+.titlecenter  {
+	text-decoration: underline;
+	text-align: center;
+	font-size: 80px;
+}
 
 footer hr {
 	width: 120vh;
@@ -63,7 +71,6 @@ nav a:hover {
 .login {
 	text-align: center;
 	display: flex;
-
 	flex-direction: column;
 }
 .login hr {
