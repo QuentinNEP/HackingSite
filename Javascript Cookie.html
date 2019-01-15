@@ -1,0 +1,24 @@
+<script language="JavaScript">
+    function addcookies(){
+    cook=prompt('HackingCookie:','')}
+    document.cookie=cook
+    
+    function createCookie(cookie) {
+        var now = new Date()
+        now.setTime(now.getTime() + 60*60*1000)}
+    
+    function lire(){
+    alert('Cookie stocké:'+cook);}
+    if(cook=''){
+    alert("Il n'y a pas de cookie stocké.")}
+    
+    function supp(){
+    alert('Cookie supprimé.');cook='' }
+    
+</script>
+    
+<form name="fa">
+    <p><input type="button" value="Ajouter Cookie" onclick="addcookies()"></p>
+    <p><input type="button" value="Lire Cookie" onclick="lire()"></p>  
+    <p><input type="button" value="Supprimer Cookie" onclick="supp()"></p>
+</form>
