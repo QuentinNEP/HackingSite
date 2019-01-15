@@ -20,3 +20,10 @@
 * Fin Gestion Cookies : 8/12
 * Fin Pages dynamiques : 7/12
 * Fin projet : 11/12
+
+## Liste Contributeurs
+
+* Corentin MACE (corentinmace)
+* Quentin NEPVEUX (Tinoou/QuentinNEP) 
+* Thomas GODARD (Godardx)
+* Enzo LEMARCHAND (KrihimeNatsuki)
